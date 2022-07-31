@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=View in File Manager (Nemo)
+Comment=Open The Desktop in Nemo
+Exec=nemo %P
+Selection=None
+Extensions=any;
+Icon-Name=desktop
+Dependencies=nemo;
+Conditions=desktop;

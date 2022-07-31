@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Convert to Webm
+Comment=Convert this GIF to a Webm
+Exec=<convert-gif-to-webm.sh %F>
+EscapeSpaces=true
+Selection=any
+Mimetypes=image/gif;
+Icon-Name=video
+Dependencies=zenity;ffmpeg;

@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Display Settings
+Comment="Open cinnamon-settings display"
+Exec=cinnamon-settings display
+Selection=None
+Extensions=any;
+Icon-Name=display
+Dependencies=cinnamon-settings;
+Conditions=desktop;dbus org.Cinnamon;

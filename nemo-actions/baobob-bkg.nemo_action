@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Disk Usage Analyzer (Baobab)
+Comment=Analyze Disk Usage
+Exec=baobab %P
+Selection=None
+Extensions=any;
+Icon-Name=baobab
+Dependencies=baobab;

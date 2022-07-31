@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=System Monitor
+Comment="Open gnome-system-monitor"
+Exec=gnome-system-monitor
+Selection=None
+Extensions=any;
+Icon-Name=gnome-system-monitor
+Dependencies=gnome-system-monitor;
+Conditions=desktop;dbus org.Cinnamon;
